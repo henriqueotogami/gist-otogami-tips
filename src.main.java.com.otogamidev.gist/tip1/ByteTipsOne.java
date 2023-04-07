@@ -14,6 +14,7 @@ public class ByteTipsOne {
         longDataType(decimalToParser);
         floatDataType(decimalToParser);
         doubleDataType(decimalToParser);
+        twoComplement(decimalToParser);
     }
 
     private static void byteDataType(final int decimalToParser) {
@@ -33,6 +34,9 @@ public class ByteTipsOne {
         final BigInteger subtraction = (bigIntegerInverted);
         System.out.println("ByteTipsOne - byteDataType(): subtraction      = " + subtraction);
         System.out.println("ByteTipsOne - byteDataType(): --------------------------------------");
+
+        int i = ((2 ^ 3) - 3);
+        System.out.println("ByteTipsOne - byteDataType(): i      = " + i);
     }
 
     private static void shortDataType(final int decimalToParser) {
@@ -57,6 +61,24 @@ public class ByteTipsOne {
         final float doubleDataType = ((float) decimalToParser);
         System.out.println("ByteTipsOne - doubleDataType(): doubleDataType    = " + doubleDataType);
 //        ByteTipsOne - doubleDataType(): doubleDataType = 207.0
+    }
+
+    private static void twoComplement(final int decimalToParser) {
+        final String decimanlConvertedInBinary = Integer.toBinaryString(decimalToParser);
+        final StringBuilder convertedBinaryReverse = new StringBuilder();
+        convertedBinaryReverse.append(decimanlConvertedInBinary);
+        final String binaryReverse = convertedBinaryReverse.reverse().toString();
+        final short binaryReverseConvertedShort = Short.valueOf(binaryReverse,2);
+        final BigInteger bigInteger = new BigInteger(binaryReverse);
+        final byte binaryReverseConvertedByte = bigInteger.byteValue();
+        final byte byteRightShift = (byte) (binaryReverseConvertedByte << 1);
+        final String byteRightShiftString = Integer.toBinaryString((int) byteRightShift);
+        System.out.println("ByteTipsOne - doubleDataType(): decimanlConvertedInBinary    = " + decimanlConvertedInBinary);
+        System.out.println("ByteTipsOne - doubleDataType(): binaryReverse    = " + binaryReverse);
+        System.out.println("ByteTipsOne - doubleDataType(): binaryReverseConvertedShort    = " + binaryReverseConvertedShort);
+        System.out.println("ByteTipsOne - doubleDataType(): binaryReverseConvertedByte    = " + binaryReverseConvertedByte);
+        System.out.println("ByteTipsOne - doubleDataType(): byteRightShift    = " + byteRightShift);
+        System.out.println("ByteTipsOne - doubleDataType(): byteRightShiftString    = " + byteRightShiftString);
     }
 
 }
