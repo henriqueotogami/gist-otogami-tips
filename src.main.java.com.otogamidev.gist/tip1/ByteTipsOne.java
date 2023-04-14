@@ -5,15 +5,15 @@ import java.math.BigInteger;
 public class ByteTipsOne {
     public static void main(String[] args) {
 
-        final int decimalToParser = 700;
+        final int decimalToParser = 27;
         System.out.println("ByteTipsOne - main(): decimalToParser           = " + decimalToParser);
 
 //        Primitive Data Types | Tipos de dados primitivos
         byteDataType(decimalToParser);
-        shortDataType(decimalToParser);
-        longDataType(decimalToParser);
-        floatDataType(decimalToParser);
-        doubleDataType(decimalToParser);
+//        shortDataType(decimalToParser);
+//        longDataType(decimalToParser);
+//        floatDataType(decimalToParser);
+//        doubleDataType(decimalToParser);
         twoComplement(decimalToParser);
     }
 
@@ -47,52 +47,82 @@ public class ByteTipsOne {
     }
 
     private static void twoComplement(final int decimalToParser) {
+        final int BYTE_MIN_VALUE = -127;
+        final int BYTE_MAX_VALUE = 127;
+        final int BINARY_INDICATOR = 2;
+        final int BYTE_SIZE = 8;
+        final int PLUS_ONE = 1;
+        final int CLEAR_STRING_BUILDER = 0;
+        final int INDEX_BEGIN_ONE_BIT = 0;
+        final int INDEX_END_ONE_BIT = 1;
+        final int MINUS_ONE = ((int) -1);
+        final String POSITIVE_NUMBER_INDICATOR_BIT = "0";
+
         final String decimanlConvertedInBinary = Integer.toBinaryString(decimalToParser);
         final StringBuilder convertedBinaryReverse = new StringBuilder();
         convertedBinaryReverse.append(decimanlConvertedInBinary);
-        System.out.println("ByteTipsOne - twoComplement(): decimanlConvertedInBinary  = " + decimanlConvertedInBinary);
+
+        System.out.println("-------------------------------------------------------------------------");
+        System.out.println("ByteTipsOne - twoComplement(): Decimanl converted in binary      = " + decimanlConvertedInBinary);
 
         final String binaryReverse = convertedBinaryReverse.reverse().toString();
-        System.out.println("ByteTipsOne - twoComplement(): binaryReverse              = " + binaryReverse);
-        int integerFirstComplement = 0;
-
-        System.out.println("ByteTipsOne - twoComplement(): binaryReverse.length() = 8");
-        integerFirstComplement = (((int) Math.pow(2,8)) - decimalToParser);
-        System.out.println("ByteTipsOne - twoComplement(): integerFirstComplement = " + integerFirstComplement);
+        System.out.println("ByteTipsOne - twoComplement(): Binary reverse                    = " + binaryReverse);
+        
+        int integerFirstComplement = (((int) Math.pow(BINARY_INDICATOR, BYTE_SIZE)) - decimalToParser);
+        System.out.println("ByteTipsOne - twoComplement(): Integer first Complement          = " + integerFirstComplement);
         String binaryFirstComplement = Integer.toBinaryString(integerFirstComplement);
-        System.out.println("ByteTipsOne - twoComplement(): binaryFirstComplement = " + binaryFirstComplement);
-        if((-127 <= integerFirstComplement)) {
-            System.out.println("ByteTipsOne - twoComplement(): integerFirstComplement is within the range");
+
+        final int binaryFirstComplementSize = binaryFirstComplement.length();
+        if(binaryFirstComplementSize > BYTE_SIZE){
+            final int indexBegin = binaryFirstComplementSize - BYTE_SIZE;
+            final int beginEnd = binaryFirstComplementSize;
+            binaryFirstComplement = binaryFirstComplement.substring(indexBegin, beginEnd);
+        }
+
+        System.out.println("ByteTipsOne - twoComplement(): Binary first complement           = " + binaryFirstComplement);
+//        TODO: Essa condicao ainda precisa ser ajustada e o calculo ainda nao ta batendo com o de Bytes
+        if(BYTE_MAX_VALUE > integerFirstComplement && BYTE_MIN_VALUE < integerFirstComplement) {
+            System.out.println("-------------------------------------------------------------------------");
+            System.out.println("ByteTipsOne - twoComplement(): Integer first complement is within the range");
+            System.out.println("ByteTipsOne - twoComplement(): Integer first complement          = " + integerFirstComplement);
+            System.out.println("-------------------------------------------------------------------------");
         } else {
-            System.out.println("ByteTipsOne - twoComplement(): integerFirstComplement is outside the range");
+            System.out.println("-------------------------------------------------------------------------");
+            System.out.println("ByteTipsOne - twoComplement(): Integer first complement is outside the range");
+            System.out.println("ByteTipsOne - twoComplement(): Integer first complement          = " + integerFirstComplement);
+
             final StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append(binaryFirstComplement);
-            final String reversedBinaryFirstComplement = stringBuilder.reverse().toString();
-            System.out.println("ByteTipsOne - twoComplement(): reversedBinaryFirstComplement = " + reversedBinaryFirstComplement);
-            final int integerReversedFirstComplemet = Integer.parseInt(reversedBinaryFirstComplement,2);
-            System.out.println("ByteTipsOne - twoComplement(): integerReversedFirstComplemet = " + integerReversedFirstComplemet);
-            final int reversedSecondComplement = integerReversedFirstComplemet + 1;
-            stringBuilder.setLength(0);
-            final String reversedBinarySecondComplement = Integer.toBinaryString(reversedSecondComplement);
-            System.out.println("ByteTipsOne - twoComplement(): binarySecondComplement = " + reversedBinarySecondComplement);
-            final String binarySecondComplement  = stringBuilder.append(reversedBinarySecondComplement).reverse().toString();
-            System.out.println("ByteTipsOne - twoComplement(): binarySecondComplement = " + binarySecondComplement);
-            final int integerSecondComplement = Integer.parseInt(binarySecondComplement,2);
-            System.out.println("ByteTipsOne - twoComplement(): integerSecondComplement = " + integerSecondComplement);
+            final String binaryReversedFirstComplement = stringBuilder.reverse().toString();
+            System.out.println("ByteTipsOne - twoComplement(): Binary reversed first complement  = " + binaryReversedFirstComplement);
+
+            final int integerReversedFirstComplemet = Integer.parseInt(binaryReversedFirstComplement, BINARY_INDICATOR);
+            System.out.println("ByteTipsOne - twoComplement(): Integer reversed first complemet  = " + integerReversedFirstComplemet);
+            
+            final int reversedSecondComplement = integerReversedFirstComplemet + PLUS_ONE;
+            stringBuilder.setLength(CLEAR_STRING_BUILDER);
+            final String binaryReversedSecondComplement = Integer.toBinaryString(reversedSecondComplement);
+            System.out.println("ByteTipsOne - twoComplement(): Binary reversed second complement = " + binaryReversedSecondComplement);
+
+            final String binarySecondComplement  = stringBuilder.append(binaryReversedSecondComplement).reverse().toString();
+            System.out.println("ByteTipsOne - twoComplement(): Binary second complement          = " + binarySecondComplement);
+
+            final int integerSecondComplement = Integer.parseInt(binarySecondComplement, BINARY_INDICATOR);
+            System.out.println("ByteTipsOne - twoComplement(): Integer second complement         = " + integerSecondComplement);
+            System.out.println("-------------------------------------------------------------------------");
         }
-        final String mostSignificantBit = binaryReverse.substring(0,1);
-        System.out.println("ByteTipsOne - twoComplement(): mostSignificantBit = " + mostSignificantBit);
-        if(mostSignificantBit.equals("0")){
+
+        final String mostSignificantBit = binaryReverse.substring(INDEX_BEGIN_ONE_BIT, INDEX_END_ONE_BIT);
+        System.out.println("ByteTipsOne - twoComplement(): Most significant bit              = " + mostSignificantBit);
+        
+        if(mostSignificantBit.equals(POSITIVE_NUMBER_INDICATOR_BIT)){
             System.out.println("ByteTipsOne - twoComplement(): Most significant bit is positive");
         } else {
             System.out.println("ByteTipsOne - twoComplement(): Most significant bit is negative");
-            integerFirstComplement = Math.multiplyExact(integerFirstComplement, (int) -1);
+            integerFirstComplement = Math.multiplyExact(integerFirstComplement, MINUS_ONE);
         }
-        System.out.println("ByteTipsOne - twoComplement(): integerFirstComplement = " + integerFirstComplement);
 
-
-
-
+        System.out.println("ByteTipsOne - twoComplement(): Final integer first complement    = " + integerFirstComplement);
+        System.out.println("-------------------------------------------------------------------------");
     }
-
 }
