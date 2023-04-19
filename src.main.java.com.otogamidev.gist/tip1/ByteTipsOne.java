@@ -6,7 +6,7 @@ public class ByteTipsOne {
     private static int resultTwoComplement = 0;
     public static void main(String[] args) {
         try {
-            for (int index = 0; 300 > index; index++) {
+            for (int index = 0; 256 > index; index++) {
                 final int decimalToParser = index;
                 System.out.println("ByteTipsOne - main(): decimalToParser           = " + decimalToParser);
 //        Primitive Data Types | Tipos de dados primitivos
