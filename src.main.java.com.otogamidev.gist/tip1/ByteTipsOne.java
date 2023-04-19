@@ -1,7 +1,5 @@
 package tip1;
 
-import java.math.BigInteger;
-
 public class ByteTipsOne {
 
     private static byte resultByteDataType = 0;
@@ -73,6 +71,7 @@ public class ByteTipsOne {
         convertedBinaryReverse.append(decimanlConvertedInBinary);
 
         System.out.println("-------------------------------------------------------------------------");
+        System.out.println("ByteTipsOne - twoComplement(): BEGIN ");
         System.out.println("ByteTipsOne - twoComplement(): Decimal converted in binary      = " + decimanlConvertedInBinary);
 
         final String binaryReverse = convertedBinaryReverse.reverse().toString();
@@ -133,18 +132,16 @@ public class ByteTipsOne {
             final String mostSignificantBit = binaryReverse.substring(INDEX_BEGIN_ONE_BIT, INDEX_END_ONE_BIT);
             System.out.println("ByteTipsOne - twoComplement(): Most significant bit              = " + mostSignificantBit);
 
-            if(mostSignificantBit.equals(POSITIVE_NUMBER_INDICATOR_BIT)){
-                System.out.println("ByteTipsOne - twoComplement(): Most significant bit is positive");
-            } else {
-                System.out.println("ByteTipsOne - twoComplement(): Most significant bit is negative");
-                integerFirstComplement = Math.multiplyExact(integerFirstComplement, MINUS_ONE);
-            }
+
+            System.out.println("ByteTipsOne - twoComplement(): Most significant bit is negative");
+            integerFirstComplement = Math.multiplyExact(integerFirstComplement, MINUS_ONE);
 
         } else {
             integerFirstComplement = decimalToParser;
         }
 
         System.out.println("ByteTipsOne - twoComplement(): Final integer first complement    = " + integerFirstComplement);
+        System.out.println("ByteTipsOne - twoComplement(): END ");
         System.out.println("-------------------------------------------------------------------------");
 
         return integerFirstComplement;
