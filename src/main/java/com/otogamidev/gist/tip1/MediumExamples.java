@@ -1,7 +1,7 @@
 package tip1;
 
 public class MediumExamples {
-    final static int decimalToParser = 207;
+    final static int decimalToParser = -17;
     public static void main(String[] args) {
 
         final byte byteDataType = ((byte) decimalToParser);

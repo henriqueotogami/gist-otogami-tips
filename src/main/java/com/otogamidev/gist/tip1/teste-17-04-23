@@ -1,0 +1,921 @@
+/Users/henriquematheusalvespereira/Library/Java/JavaVirtualMachines/openjdk-19.0.1/Contents/Home/bin/java -javaagent:/Users/henriquematheusalvespereira/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.8617.56/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52711:/Users/henriquematheusalvespereira/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.8617.56/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/henriquematheusalvespereira/Documents/Github/gist-otogami-tips/out/production/gist-otogami-tips tip1.ComparingPrimitiveTypes
+ComparingPrimitiveTypes - main(): decimalToParser           = 0
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 0
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 0
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 0
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 1
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 1
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 1
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 2
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 2
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 10
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 01
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 2
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 3
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 3
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 11
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 11
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 3
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 4
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 4
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 4
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 5
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 5
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 5
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 6
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 6
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 6
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 7
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 7
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 7
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 8
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 8
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 8
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 9
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 9
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 9
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 10
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 10
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 10
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 11
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 11
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 11
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 12
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 12
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 12
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 13
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 13
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 13
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 14
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 14
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 14
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 15
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 15
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 15
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 16
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 16
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 10000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 00001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 16
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 17
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 17
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 10001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 10001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 17
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 18
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 18
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 10010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 01001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 18
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 19
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 19
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 10011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 11001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 19
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 20
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 20
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 10100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 00101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 20
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 21
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 21
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 10101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 10101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 21
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 22
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 22
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 10110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 01101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 22
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 23
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 23
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 10111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 11101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 23
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 24
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 24
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 11000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 00011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 24
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 25
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 25
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 11001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 10011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 25
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 26
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 26
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 11010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 01011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 26
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 27
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 27
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 11011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 11011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 27
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 28
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 28
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 11100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 00111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 28
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 29
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 29
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 11101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 10111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 29
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 30
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 30
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 11110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 01111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 30
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 31
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 31
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 11111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 11111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 31
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 32
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 32
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 100000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 000001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 32
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 33
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 33
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 100001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 100001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 33
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 34
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 34
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 100010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 010001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 34
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 35
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 35
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 100011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 110001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 35
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 36
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 36
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 100100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 001001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 36
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 37
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 37
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 100101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 101001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 37
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 38
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 38
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 100110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 011001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 38
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 39
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 39
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 100111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 111001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 39
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 40
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 40
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 101000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 000101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 40
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 41
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 41
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 101001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 100101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 41
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 42
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 42
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 101010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 010101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 42
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 43
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 43
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 101011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 110101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 43
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 44
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 44
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 101100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 001101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 44
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 45
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 45
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 101101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 101101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 45
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 46
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 46
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 101110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 011101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 46
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 47
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 47
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 101111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 111101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 47
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 48
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 48
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 110000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 000011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 48
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 49
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 49
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 110001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 100011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 49
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 50
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 50
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 110010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 010011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 50
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 51
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 51
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 110011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 110011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 51
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 52
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 52
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 110100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 001011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 52
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 53
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 53
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 110101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 101011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 53
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 54
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 54
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 110110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 011011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 54
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 55
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 55
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 110111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 111011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 55
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 56
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 56
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 111000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 000111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 56
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 57
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 57
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 111001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 100111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 57
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 58
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 58
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 111010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 010111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 58
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 59
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 59
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 111011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 110111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 59
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 60
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 60
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 111100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 001111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 60
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 61
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 61
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 111101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 101111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 61
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 62
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 62
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 111110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 011111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 62
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 63
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 63
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 111111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 111111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 63
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 64
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 64
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1000000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0000001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 64
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 65
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 65
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1000001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1000001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 65
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 66
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 66
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1000010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0100001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 66
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 67
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 67
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1000011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1100001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 67
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 68
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 68
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1000100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0010001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 68
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 69
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 69
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1000101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1010001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 69
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 70
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 70
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1000110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0110001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 70
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 71
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 71
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1000111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1110001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 71
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 72
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 72
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1001000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0001001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 72
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 73
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 73
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1001001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1001001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 73
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 74
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 74
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1001010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0101001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 74
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 75
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 75
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1001011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1101001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 75
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 76
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 76
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1001100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0011001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 76
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 77
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 77
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1001101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1011001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 77
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 78
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 78
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1001110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0111001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 78
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 79
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 79
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1001111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1111001
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 79
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 80
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 80
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1010000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0000101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 80
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 81
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 81
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1010001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1000101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 81
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 82
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 82
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1010010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0100101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 82
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 83
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 83
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1010011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1100101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 83
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 84
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 84
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1010100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0010101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 84
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 85
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 85
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1010101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1010101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 85
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 86
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 86
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1010110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0110101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 86
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 87
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 87
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1010111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1110101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 87
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 88
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 88
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1011000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0001101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 88
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 89
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 89
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1011001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1001101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 89
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 90
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 90
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1011010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0101101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 90
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 91
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 91
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1011011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1101101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 91
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 92
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 92
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1011100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0011101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 92
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 93
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 93
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1011101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1011101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 93
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 94
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 94
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1011110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0111101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 94
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 95
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 95
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1011111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1111101
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 95
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 96
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 96
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1100000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0000011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 96
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 97
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 97
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1100001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1000011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 97
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 98
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 98
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1100010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0100011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 98
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 99
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 99
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1100011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1100011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 99
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 100
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 100
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1100100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0010011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 100
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 101
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 101
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1100101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1010011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 101
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 102
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 102
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1100110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0110011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 102
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 103
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 103
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1100111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1110011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 103
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 104
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 104
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1101000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0001011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 104
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 105
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 105
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1101001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1001011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 105
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 106
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 106
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1101010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0101011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 106
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 107
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 107
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1101011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1101011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 107
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 108
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 108
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1101100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0011011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 108
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 109
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 109
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1101101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1011011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 109
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 110
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 110
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1101110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0111011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 110
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 111
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 111
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1101111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1111011
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 111
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 112
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 112
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1110000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0000111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 112
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 113
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 113
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1110001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1000111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 113
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 114
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 114
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1110010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0100111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 114
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 115
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 115
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1110011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1100111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 115
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 116
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 116
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1110100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0010111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 116
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 117
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 117
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1110101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1010111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 117
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 118
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 118
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1110110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0110111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 118
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 119
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 119
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1110111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1110111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 119
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 120
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 120
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1111000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0001111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 120
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 121
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 121
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1111001
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1001111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 121
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 122
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 122
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1111010
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0101111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 122
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 123
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 123
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1111011
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1101111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 123
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 124
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 124
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1111100
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0011111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 124
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 125
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 125
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1111101
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1011111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 125
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 126
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 126
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1111110
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 0111111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 126
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 127
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = 127
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 1111111
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 1111111
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 127
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - main(): decimalToParser           = 128
+ComparingPrimitiveTypes - byteDataType(): byteDataType      = -128
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Decimal converted in binary      = 10000000
+ComparingPrimitiveTypes - twoComplement(): Binary reverse                    = 00000001
+ComparingPrimitiveTypes - twoComplement(): Integer first Complement          = 128
+ComparingPrimitiveTypes - twoComplement(): Binary first complement           = 10000000
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Integer first complement is outside the range
+ComparingPrimitiveTypes - twoComplement(): Integer first complement          = 128
+ComparingPrimitiveTypes - twoComplement(): Binary reversed first complement  = 00000001
+ComparingPrimitiveTypes - twoComplement(): Integer reversed first complemet  = 1
+ComparingPrimitiveTypes - twoComplement(): Binary reversed second complement = 10
+ComparingPrimitiveTypes - twoComplement(): Binary second complement          = 01
+ComparingPrimitiveTypes - twoComplement(): Integer second complement         = 1
+-------------------------------------------------------------------------
+ComparingPrimitiveTypes - twoComplement(): Most significant bit              = 0
+ComparingPrimitiveTypes - twoComplement(): Most significant bit is positive
+ComparingPrimitiveTypes - twoComplement(): Final integer first complement    = 128
+-------------------------------------------------------------------------
+java.lang.Exception: TWO COMPLEMENT IS FAILED
+	at tip1.ComparingPrimitiveTypes.main(ComparingPrimitiveTypes.java:22)
+
+Process finished with exit code 0
