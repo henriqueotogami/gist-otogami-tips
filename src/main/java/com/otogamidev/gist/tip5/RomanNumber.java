@@ -15,6 +15,7 @@ public enum RomanNumber {
         this.decimalNumber = decimalNumber;
     }
 
+
     public int getDecimalNumber() {
         return this.decimalNumber;
     }
