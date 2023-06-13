@@ -18,14 +18,12 @@ public class RomanToInteger {
         final ArrayList<String> romanNumberSplited = new ArrayList<>();
         checkRomanNumberType(romanNumber, romanNumberSize, romanNumberSplited);
         boolean changeByPredecessor = false;
-        boolean changeBySuccessor = false;
         int romanIntoDecimal = 0;
         for(int index = 0; romanNumberSize > index; index++) {
             final String romanToParse = romanNumberSplited.get(index);
             changeByPredecessor = checkPredecessor(romanNumberSplited, index);
-            if(changeByPredecessor == false) {
-                changeBySuccessor = checkSuccessor(romanNumberSplited, index);
-            }
+            System.out.println("0 - changeByPredecessor = " + changeByPredecessor);
+            System.out.println("0 - romanIntoDecimal = " + romanIntoDecimal);
             if(RomanNumber.I.toString().equals(romanToParse)) {
                 countRomanNumberI += RomanNumber.I.getDecimalNumber();
                 if(changeByPredecessor){
@@ -39,35 +37,85 @@ public class RomanToInteger {
                 } else {
                     romanIntoDecimal += countRomanNumberI;
                 }
+                System.out.println("I - romanIntoDecimal = " + romanIntoDecimal);
             } else if(RomanNumber.V.toString().equals(romanToParse)) {
                 countRomanNumberV = RomanNumber.V.getDecimalNumber();
                 if(changeByPredecessor){
                     final String successor = romanNumberSplited.get(index+1);
+                    countRomanNumberI = 0;
                     if(successor.equals(RomanNumber.I.name())){ // 6 a 8
                         for(int indexx = 0; 3 > indexx; index++) {
                             countRomanNumberI += (romanNumberSplited.get(index).toString().equals(RomanNumber.I.name()) ? 1 : 0);
                         }
-                        romanIntoDecimal += (RomanNumber.V.getDecimalNumber() + countRomanNumberI);
+                        romanIntoDecimal += (countRomanNumberV + countRomanNumberI);
                     }
                     index += countRomanNumberI;
                 } else {
                     romanIntoDecimal += countRomanNumberV;
                 }
+                System.out.println("V - romanIntoDecimal = " + romanIntoDecimal);
             } else if(RomanNumber.X.toString().equals(romanToParse)) {
+                countRomanNumberX += RomanNumber.X.getDecimalNumber();
                 if(changeByPredecessor) {
-                    countRomanNumberV = (RomanNumber.I.getDecimalNumber() - RomanNumber.V.getDecimalNumber());
+                    final String successor = romanNumberSplited.get(index+1);
+                    if(successor.equals(RomanNumber.L.name())) { // 40
+                        romanIntoDecimal = (RomanNumber.L.getDecimalNumber() - countRomanNumberX);
+                    } else if(successor.equals(RomanNumber.C.name())){ // 90
+                        romanIntoDecimal = (RomanNumber.C.getDecimalNumber() - countRomanNumberX);
+                    }
                     index += 2;
                 } else {
-                    countRomanNumberX += RomanNumber.X.getDecimalNumber();
+                    romanIntoDecimal += countRomanNumberX;
                 }
+                System.out.println("X - romanIntoDecimal = " + romanIntoDecimal);
             } else if(RomanNumber.L.toString().equals(romanToParse)) {
                 countRomanNumberL = RomanNumber.L.getDecimalNumber();
+                if(changeByPredecessor){
+                    final String successor = romanNumberSplited.get(index+1);
+                    if(successor.equals(RomanNumber.X.name())){ // 60 a 80
+                        countRomanNumberX = 0;
+                        for(int indexx = 0; 3 > indexx; index++) {
+                            countRomanNumberX += (romanNumberSplited.get(index).toString().equals(RomanNumber.X.name()) ? 10 : 0);
+                        }
+                        romanIntoDecimal += (countRomanNumberL + countRomanNumberX);
+                    }
+                    index += countRomanNumberX;
+                } else {
+                    romanIntoDecimal += countRomanNumberL;
+                }
+                System.out.println("L - romanIntoDecimal = " + romanIntoDecimal);
             } else if(RomanNumber.C.toString().equals(romanToParse)) {
                 countRomanNumberC += RomanNumber.C.getDecimalNumber();
+                if(changeByPredecessor) {
+                    final String successor = romanNumberSplited.get(index+1);
+                    if(successor.equals(RomanNumber.D.name())) { // 400
+                        romanIntoDecimal = (RomanNumber.D.getDecimalNumber() - countRomanNumberC);
+                    } else if(successor.equals(RomanNumber.M.name())){ // 900
+                        romanIntoDecimal = (RomanNumber.M.getDecimalNumber() - countRomanNumberC);
+                    }
+                    index += 2;
+                } else {
+                    romanIntoDecimal += countRomanNumberC;
+                }
+                System.out.println("C - romanIntoDecimal = " + romanIntoDecimal);
             } else  if(RomanNumber.D.toString().equals(romanToParse)) {
-                countRomanNumberD = RomanNumber.D.getDecimalNumber();
+                countRomanNumberD = RomanNumber.L.getDecimalNumber();
+                if(changeByPredecessor){
+                    final String successor = romanNumberSplited.get(index+1);
+                    if(successor.equals(RomanNumber.C.name())){ // 600 a 800
+                        for(int indexx = 0; 3 > indexx; index++) {
+                            countRomanNumberC += (romanNumberSplited.get(index).toString().equals(RomanNumber.C.name()) ? 100 : 0);
+                        }
+                        romanIntoDecimal += (countRomanNumberD + countRomanNumberC);
+                    }
+                    index += countRomanNumberD;
+                } else {
+                    romanIntoDecimal += countRomanNumberD;
+                }
+                System.out.println("D - romanIntoDecimal = " + romanIntoDecimal);
             } else if(RomanNumber.M.toString().equals(romanToParse)) {
-                countRomanNumberM += RomanNumber.M.getDecimalNumber();
+                romanIntoDecimal += RomanNumber.M.getDecimalNumber();
+                System.out.println("M - romanIntoDecimal = " + romanIntoDecimal);
             }
 
         }
@@ -102,21 +150,19 @@ public class RomanToInteger {
     private static boolean checkPredecessor(final ArrayList<String> romanNumberSplit, final int index) {
         String romanPredecessor = romanNumberSplit.get(index).toString();
         String romanSuccessor = null;
+        boolean isPredecessor = false;
+
         if(romanNumberSplit.size() > (index+1)) {
-            romanSuccessor = romanNumberSplit.get(index+1).toString();
-        }
-        final boolean isPredecessor;
-        try {
+            romanSuccessor = romanNumberSplit.get(index + 1).toString();
+
             isPredecessor = (
-                ( (romanPredecessor.equals(RomanNumber.I.name())) && (romanSuccessor.equals(RomanNumber.V.name())) ) ||
-                ( (romanPredecessor.equals(RomanNumber.I.name())) && (romanSuccessor.equals(RomanNumber.X.name())) ) ||
-                ( (romanPredecessor.equals(RomanNumber.X.name())) && (romanSuccessor.equals(RomanNumber.L.name())) ) ||
-                ( (romanPredecessor.equals(RomanNumber.X.name())) && (romanSuccessor.equals(RomanNumber.C.name())) ) ||
-                ( (romanPredecessor.equals(RomanNumber.C.name())) && (romanSuccessor.equals(RomanNumber.D.name())) ) ||
-                ( (romanPredecessor.equals(RomanNumber.C.name())) && (romanSuccessor.equals(RomanNumber.M.name())) )
+                ((romanPredecessor.equals(RomanNumber.I.name())) && (romanSuccessor.equals(RomanNumber.V.name()))) ||
+                ((romanPredecessor.equals(RomanNumber.I.name())) && (romanSuccessor.equals(RomanNumber.X.name()))) ||
+                ((romanPredecessor.equals(RomanNumber.X.name())) && (romanSuccessor.equals(RomanNumber.L.name()))) ||
+                ((romanPredecessor.equals(RomanNumber.X.name())) && (romanSuccessor.equals(RomanNumber.C.name()))) ||
+                ((romanPredecessor.equals(RomanNumber.C.name())) && (romanSuccessor.equals(RomanNumber.D.name()))) ||
+                ((romanPredecessor.equals(RomanNumber.C.name())) && (romanSuccessor.equals(RomanNumber.M.name())))
             );
-        } catch (Exception e) {
-            throw new RuntimeException(e);
         }
         return isPredecessor;
     }
