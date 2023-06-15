@@ -22,10 +22,10 @@ public class RomanToInteger {
         for(int index = 0; romanNumberSize > index; index++) {
             final String romanToParse = romanNumberSplited.get(index);
             changeByPredecessor = checkPredecessor(romanNumberSplited, index);
-            System.out.println("0 - changeByPredecessor = " + changeByPredecessor);
+//            System.out.println("0 - changeByPredecessor = " + changeByPredecessor);
             System.out.println("0 - romanIntoDecimal = " + romanIntoDecimal);
             if(RomanNumber.I.toString().equals(romanToParse)) {
-                countRomanNumberI += RomanNumber.I.getDecimalNumber();
+                countRomanNumberI = RomanNumber.I.getDecimalNumber();
                 if(changeByPredecessor){
                     final String successor = romanNumberSplited.get(index+1);
                     if(successor.equals(RomanNumber.V.name())){ // 4
@@ -33,7 +33,7 @@ public class RomanToInteger {
                     } else if(successor.equals(RomanNumber.X.name())){ // 9
                         romanIntoDecimal += (RomanNumber.X.getDecimalNumber() - countRomanNumberI);
                     }
-                    index += 2;
+                    index += 1;
                 } else {
                     romanIntoDecimal += countRomanNumberI;
                 }
@@ -55,15 +55,15 @@ public class RomanToInteger {
                 }
                 System.out.println("V - romanIntoDecimal = " + romanIntoDecimal);
             } else if(RomanNumber.X.toString().equals(romanToParse)) {
-                countRomanNumberX += RomanNumber.X.getDecimalNumber();
+                countRomanNumberX = RomanNumber.X.getDecimalNumber();
                 if(changeByPredecessor) {
                     final String successor = romanNumberSplited.get(index+1);
                     if(successor.equals(RomanNumber.L.name())) { // 40
-                        romanIntoDecimal = (RomanNumber.L.getDecimalNumber() - countRomanNumberX);
+                        romanIntoDecimal += (RomanNumber.L.getDecimalNumber() - countRomanNumberX);
                     } else if(successor.equals(RomanNumber.C.name())){ // 90
-                        romanIntoDecimal = (RomanNumber.C.getDecimalNumber() - countRomanNumberX);
+                        romanIntoDecimal += (RomanNumber.C.getDecimalNumber() - countRomanNumberX);
                     }
-                    index += 2;
+                    index += 1;
                 } else {
                     romanIntoDecimal += countRomanNumberX;
                 }
@@ -85,15 +85,15 @@ public class RomanToInteger {
                 }
                 System.out.println("L - romanIntoDecimal = " + romanIntoDecimal);
             } else if(RomanNumber.C.toString().equals(romanToParse)) {
-                countRomanNumberC += RomanNumber.C.getDecimalNumber();
+                countRomanNumberC = RomanNumber.C.getDecimalNumber();
                 if(changeByPredecessor) {
                     final String successor = romanNumberSplited.get(index+1);
                     if(successor.equals(RomanNumber.D.name())) { // 400
-                        romanIntoDecimal = (RomanNumber.D.getDecimalNumber() - countRomanNumberC);
+                        romanIntoDecimal += (RomanNumber.D.getDecimalNumber() - countRomanNumberC);
                     } else if(successor.equals(RomanNumber.M.name())){ // 900
-                        romanIntoDecimal = (RomanNumber.M.getDecimalNumber() - countRomanNumberC);
+                        romanIntoDecimal += (RomanNumber.M.getDecimalNumber() - countRomanNumberC);
                     }
-                    index += 2;
+                    index += 1;
                 } else {
                     romanIntoDecimal += countRomanNumberC;
                 }
@@ -191,6 +191,6 @@ public class RomanToInteger {
 
 
     public static void main(String[] args) {
-        romanToInt("IIII");
+        romanToInt("LVIII");
     }
 }
