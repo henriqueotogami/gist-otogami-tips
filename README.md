@@ -55,6 +55,11 @@
 >
 > A partir dos desafios contidos aqui no Tip 1, foi possível escrever o artigo no Medium [Validação de Sequência de Parênteses](https://medium.com/@henriqueotogami/validação-de-sequência-de-parênteses-e969e5560480), compartilhando a minha estratégia para realizar a implementação.
 
+<br>
+<div align="center">
+<img width="auto" src="https://github.com/henriqueotogami/gist-otogami-tips/blob/main/src/main/resources/com/otogamidev/gist/images/Medium-TwosComplement-Image-01.png?raw=true">
+</div>
+<br>
 <hr>
 </details>
 
@@ -63,7 +68,43 @@
 
 ##### Release v1.2
 
-> Leetcode - Soma de números em um array de 1 dimensão
+> Leetcode - Soma de números em um array de 1 dimensão.
+
+#### [LeetCode Submission - Running Sum of 1d Array](https://leetcode.com/submissions/detail/963245883/)
+
+#### Descrição
+
+> Dado um array nums. Definimos uma soma corrente de um array como runningSum[i] = sum(nums[0]…nums[i]).
+>
+> Retorna a soma corrente de nums. 
+
+##### Exemplo 1:
+
+> Entrada: nums = [1,2,3,4]
+>
+> Saída: [1,3,6,10]
+>
+> Explicação: A soma corrente é obtida da seguinte forma: [1, 1+2, 1+2+3, 1+2+3+4].
+
+##### Exemplo 2:
+
+> Entrada: nums = [1,1,1,1,1]
+>
+> Saída: [1,2,3,4,5]
+>
+> Explicação: A soma corrente é obtida da seguinte forma: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1].
+
+##### Exemplo 3:
+
+> Entrada: nums = [3,1,2,10,1]
+>
+> Saída: [3,4,6,16,17]
+ 
+##### Restrições:
+
+> 1 <= nums.length <= 1000
+>
+> -10^6 <= nums[i] <= 10^6
 
 <hr>
 </details>
@@ -75,6 +116,40 @@
 
 > LeetCode - Verificação de números palíndromos
 
+#### [LeetCode Submission - Palindrome Number](https://leetcode.com/submissions/detail/964826217/)
+
+#### Descrição
+
+> Dado um inteiro x, retorne true se x for um palíndromo, e false de outra forma .
+
+##### Exemplo 1:
+
+> Entrada: x = 121
+>
+> Saída: verdadeiro
+> 
+> Explicação: 121 é lido como 121 da esquerda para a direita e da direita para a esquerda.
+
+##### Exemplo 2:
+
+> Entrada: x = -121
+>
+> Saída: false
+>
+> Explicação: Da esquerda para a direita, lê-se -121. Da direita para a esquerda, torna-se 121-. Portanto, não é um palíndromo.
+
+##### Exemplo 3:
+
+> Entrada: x = 10
+> 
+> Saída: false
+> 
+> Explicação: Lê 01 da direita para a esquerda. Portanto, não é um palíndromo.
+
+##### Restrições:
+
+> -231 <= x <= 231 - 1
+
 <hr>
 </details>
 
@@ -83,7 +158,40 @@
 
 ##### Release v1.4
 
-> LeetCode - Soma de dois números de um array
+> LeetCode - Soma de dois números de um array.
+
+#### [LeetCode Submission - Two Sum](https://leetcode.com/submissions/detail/965504107/)
+
+#### Descrição
+
+> Dado um array de inteiros nums e um inteiro target, retorne os índices dos dois números de modo que a soma deles sejatarget .
+> 
+> Você pode assumir que cada entrada teria exatamente uma solução e não pode usar o mesmo elemento duas vezes.
+> 
+> Você pode retornar a resposta em qualquer ordem.
+
+##### Exemplo 1:
+
+> Entrada: nums = [2,7,11,15], alvo = 9
+> Saída: [0,1]
+> Explicação: Como nums[0] + nums[1] == 9, retornamos [0, 1].
+
+##### Exemplo 2:
+
+> Entrada: nums = [3,2,4], alvo = 6
+> Saída: [1,2]
+
+##### Exemplo 3:
+
+> Entrada: nums = [3,3], alvo = 6
+> Saída: [0,1]
+
+##### Restrições:
+
+> 2 <= nums.length <= 104
+> -109 <= nums[i] <= 109
+> -109 <= target <= 109
+> Existe apenas uma resposta válida.
 
 <hr>
 </details>
@@ -95,6 +203,64 @@
 
 > LeetCode - Conversão de números romanos para decimais
 
+#### [LeetCode Submission - Roman to Integer](https://leetcode.com/submissions/detail/975210818/)
+
+#### Descrição
+
+> Os algarismos romanos são representados por sete símbolos diferentes:  I, V, X, L, C, De M.
+>
+> Símbolo | Valor
+>
+> - I | 1
+> - V | 5
+> - X | 10
+> - L | 50
+> - C | 100
+> - D | 500
+> - M | 1000
+
+> Por exemplo,  2 é escrito como II em numeral romano, apenas dois uns somados. 12 é escrito como  XII, que é simplesmente X + II. O número 27 é escrito como XXVII, que é XX + V + II.
+> 
+> Os algarismos romanos são geralmente escritos do maior para o menor, da esquerda para a direita. No entanto, o numeral para quatro não é IIII. Em vez disso, o número quatro é escrito como IV. Como o um está antes do cinco, nós o subtraímos, resultando em quatro. O mesmo princípio se aplica ao número nove, que é escrito como IX. Há seis instâncias em que a subtração é usada:
+> 
+> - Ipode ser colocado antes de V(5) e X(10) para formar 4 e 9. 
+> - Xpode ser colocado antes de L(50) e C(100) para fazer 40 e 90. 
+> - Cpode ser colocado antes de D(500) e M(1000) para fazer 400 e 900.
+
+> Dado um numeral romano, converta-o em um inteiro.
+
+##### Exemplo 1:
+
+> Entrada: s = "III"
+> 
+> Saída: 3
+> 
+> Explicação: III = 3.
+
+##### Exemplo 2:
+
+> Entrada: s = "LVIII"
+> 
+> Saída: 58
+> 
+> Explicação: L = 50, V= 5, III = 3.
+
+##### Exemplo 3:
+
+> Entrada: s = "MCMXCIV"
+> 
+> Saída: 1994
+> 
+> Explicação: M = 1000, CM = 900, XC = 90 e IV = 4.
+
+##### Restrições:
+
+> - 1 <= s.length <= 15
+>
+> - s contém apenas os caracteres ('I', 'V', 'X', 'L', 'C', 'D', 'M').
+> 
+> - É garantido  que sé um numeral romano válido no intervalo [1, 3999].
+
 <hr>
 </details>
 
@@ -103,31 +269,51 @@
 
 ##### Release v1.6
 
-> LeetCode - Validação de sequência de parênteses
+> LeetCode - Validação de sequência de parênteses.
+
+#### [LeetCode Submission - Valid Parentheses](https://leetcode.com/submissions/detail/1017104932/)
+
+#### Descrição
+
+> Dada uma string scontendo apenas os caracteres '(', ')', '{', '}', '['e ']', determine se a string de entrada é válida.
+> 
+> Uma string de entrada é válida se:
+> 
+> - Os colchetes abertos devem ser fechados pelo mesmo tipo de colchetes.
+> - Os colchetes abertos devem ser fechados na ordem correta.
+> - Cada colchete fechado tem um colchete aberto correspondente do mesmo tipo.
+ 
+##### Exemplo 1:
+
+> Entrada: s = "()"
+>
+> Saída: verdadeiro
+
+##### Exemplo 2:
+
+> Entrada: s = "()[]{}"
+>
+> Saída: verdadeiro
+
+##### Exemplo 3:
+
+> Entrada: s = "(]"
+> 
+> Saída: falso
+
+##### Exemplo 4:
+
+> Entrada: s = "([])"
+> 
+> Saída: verdadeiro
+
+##### Restrições:
+
+> - 1 <= s.length <= 104
+> - s consiste apenas em parênteses '()[]{}'.
 
 <hr>
 </details>
-
-<details>
-    <summary> Tip 7 - Java </summary>
-
-##### Release v1.7
-
-> Medium - Comparação de números de tipos primitivos -> Complemento de Dois
-
-<hr>
-</details>
-
-<details>
-    <summary> Tip 8 - Java </summary>
-
-##### Release v1.8
-
-> Medium - Comparação de números de tipos primitivos -> Complemento de Dois
-
-<hr>
-</details>
-
 
 <hr>
 
