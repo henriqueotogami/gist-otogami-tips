@@ -3,7 +3,7 @@
 ## Gist Otogami Tips
 ### Henrique Otogami
 #### Início: 01-04-2023
-##### Readme versão 1.0
+##### Readme versão 1.1
 
 </div>
 <br>
@@ -12,13 +12,18 @@
 </div>
 <br>
 <div align="center">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/henriqueotogami/gist-otogami-tips">
+<img src="https://img.shields.io/github/release-date/henriqueotogami/gist-otogami-tips">
 </div>
 <br>
 <div align="center">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/henriqueotogami/gist-otogami-tips">
+<img src="https://img.shields.io/github/checks-status/henriqueotogami/gist-otogami-tips/main">
 <img src="https://img.shields.io/github/issues/henriqueotogami/gist-otogami-tips">
-<img src="https://img.shields.io/github/forks/henriqueotogami/gist-otogami-tips">
-<img src="https://img.shields.io/github/stars/henriqueotogami/gist-otogami-tips">
+</div>
+<br>
+<div align="center">
+<img src="https://img.shields.io/github/forks/henriqueotogami/gist-otogami-tips?style=flat">
+<img src="https://img.shields.io/github/stars/henriqueotogami/gist-otogami-tips?style=flat">
 <img src="https://img.shields.io/github/license/henriqueotogami/gist-otogami-tips">
 </div>
 <br>
